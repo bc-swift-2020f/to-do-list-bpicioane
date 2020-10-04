@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		314FF729252A36C00028653F /* ToDoItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314FF728252A36C00028653F /* ToDoItems.swift */; };
 		314FF72B252A3BD50028653F /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314FF72A252A3BD50028653F /* LocalNotificationManager.swift */; };
+		314FF72D252A5D040028653F /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314FF72C252A5D040028653F /* UIViewController+alert.swift */; };
 		319481CE251FC21A008CC6BB /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319481CD251FC21A008CC6BB /* ToDoItem.swift */; };
 		31962FD3251C56B700CA8EBC /* ToDoDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31962FD2251C56B700CA8EBC /* ToDoDetailTableViewController.swift */; };
 		31E3C1952528CEAB002A8EEF /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E3C1942528CEAB002A8EEF /* ListTableViewCell.swift */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		314FF728252A36C00028653F /* ToDoItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItems.swift; sourceTree = "<group>"; };
 		314FF72A252A3BD50028653F /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
+		314FF72C252A5D040028653F /* UIViewController+alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
 		319481CD251FC21A008CC6BB /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		31962FD2251C56B700CA8EBC /* ToDoDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailTableViewController.swift; sourceTree = "<group>"; };
 		31E3C1942528CEAB002A8EEF /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				31EE0C78251C089B0079ED6C /* AppDelegate.swift */,
 				31EE0C7A251C089B0079ED6C /* SceneDelegate.swift */,
 				314FF72A252A3BD50028653F /* LocalNotificationManager.swift */,
+				314FF72C252A5D040028653F /* UIViewController+alert.swift */,
 				319481CD251FC21A008CC6BB /* ToDoItem.swift */,
 				314FF728252A36C00028653F /* ToDoItems.swift */,
 				31EE0C7C251C089B0079ED6C /* ToDoListViewController.swift */,
@@ -156,6 +159,7 @@
 				31EE0C7D251C089B0079ED6C /* ToDoListViewController.swift in Sources */,
 				314FF729252A36C00028653F /* ToDoItems.swift in Sources */,
 				31EE0C79251C089B0079ED6C /* AppDelegate.swift in Sources */,
+				314FF72D252A5D040028653F /* UIViewController+alert.swift in Sources */,
 				319481CE251FC21A008CC6BB /* ToDoItem.swift in Sources */,
 				31962FD3251C56B700CA8EBC /* ToDoDetailTableViewController.swift in Sources */,
 				31EE0C7B251C089B0079ED6C /* SceneDelegate.swift in Sources */,

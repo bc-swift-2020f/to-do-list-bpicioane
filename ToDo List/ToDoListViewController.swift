@@ -24,13 +24,8 @@ class ToDoListViewController: UIViewController {
         toDoItems.loadData() {
             self.tableView.reloadData()
         }
-        LocalNotificationManager.authorizeLocalNotifications()
+        LocalNotificationManager.authorizeLocalNotifications(viewController: self)
     }
-    
-    
-    
-    
-    
     
     func saveData() {
 //        let directoryURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
@@ -43,7 +38,7 @@ class ToDoListViewController: UIViewController {
 //            print("L. could not save data \(error.localizedDescription)")
 //        }
         toDoItems.saveData()
-        setNotifications()
+        toDoItems.setNotifications()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
